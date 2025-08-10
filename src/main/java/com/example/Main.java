@@ -12,7 +12,20 @@ public class Main {
         Ascensor ascensor2=new Ascensor(7, 28, "aluminio", 750, "hidraulica", "Mitsubishi");
 
 
+
+
+        planta1.getGenero();
+        planta1.toString();
+        planta1.setNumeroHojas(20);
+
+
     }
+
+}
+
+
+
+
 
 
     
