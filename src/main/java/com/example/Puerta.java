@@ -52,6 +52,21 @@ public class Puerta {
 
     }
 
-    
+    public void abrir(){
+        if (cerradura==true) {
+            System.out.println("La puerta se puede abrir con llave.");
+        }else if(cerradura==false){
+            System.out.println("Debes buscar un cerrajero para que te ayude a abrir la puerta. ");
+        }
+    }
+
+    public void pintar(){
+
+        if (color.equals("translucido") || color.equals("gris") ){
+            System.out.println("La puerta esta pintada");
+        }else {
+            System.out.println("Hay que pintar la puerta. ");
+        }
+    }
 
 }
