@@ -63,7 +63,7 @@ public class Puerta {
     public void pintar(){
 
         if (color.equals("translucido") || color.equals("gris") ){
-            System.out.println("La puerta esta pintada");
+            System.out.println("La puerta esta pintada.");
         }else {
             System.out.println("Hay que pintar la puerta. ");
         }
