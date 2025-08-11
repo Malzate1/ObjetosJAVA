@@ -49,6 +49,27 @@ public class Ascensor {
         this.traccion = traccion;
     }
 
+    public void abrir(){
+
+        if (capacidadPersonas<10) {
+
+            System.out.println("El ascensor se abre. ");
+            
+        }else{
+
+            System.out.println("El ascensor tiene sobrecarga.");
+        }
+    }
+
+    public void abastecerFluido(){
+
+        if (traccion.equals("Hidraulica")) {
+            System.out.println("Debes chequear el fluido y abastecer si es necesario.");
+        }else  {
+            System.out.println("No tienes que abastecer el fluido del ascensor. ");
+        } 
+    }
+
 
 
 }
