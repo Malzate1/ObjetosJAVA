@@ -46,7 +46,7 @@ public class Puerta {
         this.color=color;
 
     }
-    public void setTipoCerradura(String tipoCerradura){
+    public void setTipoCerradura(){
 
         this.tipoCerradura = tipoCerradura;
 
