@@ -14,9 +14,14 @@ public class Main {
 
 
 
-        planta1.getGenero();
-        planta1.toString();
-        planta1.setNumeroHojas(20);
+        System.out.println(planta1.getGenero());
+        System.out.println(planta1.toString());
+        //System.out.print(planta1.setNumeroHojas(20));
+        planta1.florecer();
+        System.out.println(planta2.getGenero());
+        System.out.println(planta2.toString());
+        //System.out.print(planta1.setNumeroHojas(20));
+        planta2.florecer();
 
 
     }
