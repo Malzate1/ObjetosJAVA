@@ -22,12 +22,12 @@ A continuación encontrarás cada uno de los elementos anteriormente descritos.
 public Planta(String nombre, String genero, boolean floracion, int tamano, int numeroHojas, double cantidadAgua)
 
 
-this.nombre = nombre.
-this.genero = genero;
-this.floracion = floración.
-this.tamano = tamaño.
-this.numeroHojas = numeroHojas.
-this.cantidadAgua = cantidadAgua.
+this.capacidadPersonas=capacidadPersonas;
+this.numeroBotones=numeroBotones;
+this.materiales=materiales;
+this.peso=peso;
+this.traccion=traccion;
+this.marca=marca;
 
 
 ### Métodos:
@@ -56,12 +56,12 @@ this.cantidadAgua = cantidadAgua.
 public Puerta(String color, int numeroPartes, boolean cerradura, String tipoCerradura, double peso,
             String material) {
             
-this.color = color.
-this.numeroPartes = numeroPartes.
-this.cerradura = cerradura.
-this.tipoCerradura = tipoCerradura.
-this.peso = peso.
-this.material = material.
+            this.color = color.
+            this.numeroPartes = numeroPartes.
+            this.cerradura = cerradura.
+            this.tipoCerradura = tipoCerradura.
+            this.peso = peso.
+            this.material = material.
 
 ### Métodos:
 
