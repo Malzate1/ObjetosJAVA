@@ -72,9 +72,7 @@ public Puerta(String color, int numeroPartes, boolean cerradura, String tipoCerr
 -	pintar().
 
 
-< p align = " CLASE ASCENSOR  " > 
- 
-</ p >
+## CLASE ASCENSOR : 
 
 ### Atributos:
 -	int capacidadPersonas.
