@@ -17,7 +17,7 @@ A continuación encontrarás cada uno de los elementos anteriormente descritos.
 -  double peso.
 -  String material.
 
-## Constructores:
+### Constructores:
 
 public Planta(String nombre, String genero, boolean floracion, int tamano, int numeroHojas, double cantidadAgua)
 - this.nombre = nombre.
@@ -28,7 +28,7 @@ public Planta(String nombre, String genero, boolean floracion, int tamano, int n
 - this.cantidadAgua = cantidadAgua.
 
 
-## Métodos:
+### Métodos:
 - toString()
 - setGenero(String genero).
 - setNumeroHojas(int numeroHojas).
@@ -49,7 +49,7 @@ public Planta(String nombre, String genero, boolean floracion, int tamano, int n
 -	double peso.
 -	String material.
 
-## Contructores:
+### Contructores:
 
 public Puerta(String color, int numeroPartes, boolean cerradura, String tipoCerradura, double peso,
             String material) {
@@ -61,7 +61,7 @@ public Puerta(String color, int numeroPartes, boolean cerradura, String tipoCerr
 -	 this.peso = peso.
 -	this.material = material.
 
-## Métodos:
+### Métodos:
 
 -	toString().
 -	getCerradura().
