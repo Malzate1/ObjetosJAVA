@@ -22,12 +22,12 @@ A continuación encontrarás cada uno de los elementos anteriormente descritos.
 public Planta(String nombre, String genero, boolean floracion, int tamano, int numeroHojas, double cantidadAgua)
 
 
-this.capacidadPersonas=capacidadPersonas;
-this.numeroBotones=numeroBotones;
-this.materiales=materiales;
-this.peso=peso;
-this.traccion=traccion;
-this.marca=marca;
+            this.capacidadPersonas=capacidadPersonas;
+            this.numeroBotones=numeroBotones;
+            this.materiales=materiales;
+            this.peso=peso;
+            this.traccion=traccion;
+            this.marca=marca;
 
 
 ### Métodos:
