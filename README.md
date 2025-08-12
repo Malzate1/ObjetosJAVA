@@ -36,3 +36,41 @@ public Planta(String nombre, String genero, boolean floracion, int tamano, int n
 - getGenero().
 - florecer().
 - regar().
+
+
+## CLASE PUERTA:
+
+
+### Atributos:
+-	String color
+-	int numeroPartes.
+-	boolean cerradura.
+-	String tipoCerradura.
+-	double peso.
+-	String material.
+
+## Contructores:
+
+public Puerta(String color, int numeroPartes, boolean cerradura, String tipoCerradura, double peso,
+            String material) {
+
+-	 this.color = color.
+-	this.numeroPartes = numeroPartes.
+-	this.cerradura = cerradura.
+-	this.tipoCerradura = tipoCerradura.
+-	 this.peso = peso.
+-	this.material = material.
+
+## Métodos:
+
+-	toString().
+-	getCerradura().
+-	getPeso()
+-	setTipoCerradura().
+-	setColor(String color).
+-	abrir().
+-	pintar().
+
+
+
+
