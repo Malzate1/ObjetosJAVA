@@ -20,6 +20,8 @@ A continuación encontrarás cada uno de los elementos anteriormente descritos.
 ### Constructores:
 
 public Planta(String nombre, String genero, boolean floracion, int tamano, int numeroHojas, double cantidadAgua)
+
+
 this.nombre = nombre.
 this.genero = genero;
 this.floracion = floración.
@@ -53,6 +55,7 @@ this.cantidadAgua = cantidadAgua.
 
 public Puerta(String color, int numeroPartes, boolean cerradura, String tipoCerradura, double peso,
             String material) {
+            
 this.color = color.
 this.numeroPartes = numeroPartes.
 this.cerradura = cerradura.
