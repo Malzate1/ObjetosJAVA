@@ -72,5 +72,39 @@ public Puerta(String color, int numeroPartes, boolean cerradura, String tipoCerr
 -	pintar().
 
 
+<center>
+## CLASE ASCENSOR:
+</center>
+
+### Atributos:
+-	int capacidadPersonas.
+-	int numeroBotones.
+-	String materiales.
+-	int peso.
+-	String tracción.
+-	String marca.
+
+### Constructores:
+
+public Ascensor(int capacidadPersonas,int numeroBotones,String materiales,int peso,String tipo,String marca){
+
+        this.capacidadPersonas=capacidadPersonas.
+        this.numeroBotones=numeroBotones.
+        this.materiales=materiales.
+        this.peso=peso.
+        this.traccion=tracción.
+
+### Métodos:
+
+-	toString().
+-	getMateriales().
+-	setMateriales(String materiales).
+-	getTraccion().
+-	setTraccion(String traccion).
+-	abrir().
+-	abastecerFluido().
+
+
+
 
 
