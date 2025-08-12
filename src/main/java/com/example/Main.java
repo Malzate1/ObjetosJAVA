@@ -31,12 +31,12 @@ public class Main {
         System.out.println(ascensor1.getMateriales());
         System.out.println(ascensor1.toString());
         // System.out.println(ascensor1.setTraccion(String this.traccion));
-        ascensor1.abastecerFluido();
+        ascensor1.abrir();
 
         System.out.println(ascensor2.getMateriales());
         System.out.println(ascensor2.toString());
         // System.out.println(ascensor2.setTraccion(String this.traccion));
-        ascensor2.abastecerFluido();
+        ascensor2.abrir();
 
     }
 
