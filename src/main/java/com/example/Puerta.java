@@ -5,17 +5,17 @@ public class Puerta {
     private String color;
     private int numeroPartes;
     private boolean cerradura;
-    private String tipoCerradura;
+    private String tipoChapa;
     private double peso;
     private String material;
 
-    public Puerta(String color, int numeroPartes, boolean cerradura, String tipoCerradura, double peso,
+    public Puerta(String color, int numeroPartes, boolean cerradura, String tipoChapa , double peso,
             String material) {
 
         this.color = color;
         this.numeroPartes = numeroPartes;
         this.cerradura = cerradura;
-        this.tipoCerradura = tipoCerradura;
+        this.tipoChapa = tipoChapa;
         this.peso = peso;
         this.material = material;
 
@@ -24,7 +24,7 @@ public class Puerta {
     @Override
     public String toString() {
         return "Puerta [color=" + color + ", numeroPartes=" + numeroPartes + ", cerradura=" + cerradura
-                + ", tipoCerradura=" + tipoCerradura + ", peso=" + peso + ", material=" + material + "]";
+                + ", tipoCerradura=" + tipoChapa + ", peso=" + peso + ", material=" + material + "]";
     }
 
     public boolean getCerradura() {
@@ -43,9 +43,9 @@ public class Puerta {
 
     }
 
-    public void setTipoCerradura() {
+    public void setTipoChapa(String tipoChapa) {
 
-        this.tipoCerradura = tipoCerradura;
+        this.tipoChapa = tipoChapa;
 
     }
 

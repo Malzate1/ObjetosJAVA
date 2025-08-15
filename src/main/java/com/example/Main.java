@@ -12,30 +12,31 @@ public class Main {
 
         System.out.println(planta1.getGenero());
         System.out.println(planta1.toString());
-        System.out.print(planta1.setNumeroHojas(15));
+        planta1.setNumeroHojas(15);
         planta1.florecer();
+
         System.out.println(planta2.getGenero());
         System.out.println(planta2.toString());
-        System.out.print(planta2.setNumeroHojas(20));
+        planta2.setNumeroHojas(20);
         planta2.florecer();
 
         System.out.println(puerta1.getPeso());
         System.out.println(puerta1.toString());
-        System.out.println(puerta1.setTipoCerradura("electronica"));
+        puerta1.setTipoChapa("Hidraulica");
         puerta1.pintar();
         System.out.println(puerta2.getPeso());
         System.out.println(puerta2.toString());
-        System.out.println(puerta2.setTipoCerradura("Analoga"));
+        puerta2.setTipoChapa("Analoga");
         puerta2.pintar();
 
         System.out.println(ascensor1.getMateriales());
         System.out.println(ascensor1.toString());
-        System.out.println(ascensor1.setTraccion("hidraulica"));
+        ascensor1.setTraccion("hidraulica");
         ascensor1.abrir();
 
         System.out.println(ascensor2.getMateriales());
         System.out.println(ascensor2.toString());
-        System.out.println(ascensor2.setTraccion("electronica"));
+        ascensor2.setTraccion("electronica");
         ascensor2.abrir();
 
     }

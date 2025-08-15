@@ -54,12 +54,12 @@ public Planta(String nombre, String genero, boolean floracion, int tamano, int n
 ### Contructores:
 
 public Puerta(String color, int numeroPartes, boolean cerradura, String tipoCerradura, double peso,
-            String material) {
+            String material) 
             
             this.color = color.
             this.numeroPartes = numeroPartes.
             this.cerradura = cerradura.
-            this.tipoCerradura = tipoCerradura.
+            this.tipoChapa = tipoChapa.
             this.peso = peso.
             this.material = material.
 
